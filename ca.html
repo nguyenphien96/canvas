@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+    <script>
+        let cv = document.getElementById('myCanvas').getContext('2d');
+        let a = document.getElementById('anh');
+        // - Vẽ đường thẳng
+        // - Vẽ hình tròn
+        // - Vẽ hình chữ nhật
+        // - Vẽ ảnh
+        // - Cách thay đổi màu: cv.fillStyle = "..."
+        // cv.moveTo(10, 10);
+        // cv.lineTo(50, 50);
+        // cv.stroke();
+
+        // cv.arc(50, 50, 10, 0,2* Math.PI); // x, y, bán kính, điểm bắt đầu, điểm kết thúc.
+        // // cv.stroke();
+        // cv.fillStyle = "red";
+        // cv.fill();
+
+        // cv.rect(10, 10, 50, 100);
+        // cv.fillStyle = 'yellow';
+
+        // cv.fill();
+        function d() {
+            cv.drawImage(a, 10, 10);
+        }
+
+    </script>
+</body>
+</html>
